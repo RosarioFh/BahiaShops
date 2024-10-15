@@ -1,0 +1,40 @@
+* { 
+    box-sizing: border-box;
+    font-family: "poppins";
+    font-optical-sizing: auto;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+#nav__bar{
+    background-color: white;
+}
+
+.h1{
+    margin: 60px 0px 20px 0px;
+    text-align: center;
+}
+.h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.parrafo__principal{
+    margin: 0px 10% 0px 10%;
+    text-align: center;
+}
+    
+.mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 10% 0px 10%;
+}
+
+.imagen__flecha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+}

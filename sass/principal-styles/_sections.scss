@@ -1,0 +1,96 @@
+.banner-principal{
+    width: 100%;
+    height: auto;
+}
+.banner__imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.imagen__banner{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.imagen-de-tabla{
+    width: 100%;
+    height: auto;
+}
+.titulos-de-tabla{
+    text-align: center;
+    font-weight: 600;
+}
+.textos-de-tabla{
+    text-align: center;
+    font-size: small;
+    padding: 10px;
+}
+
+
+.section-productos{ 
+    table{
+        width: 100%;
+        table-layout: fixed;
+        margin-top: 10px;
+    }
+    table img{
+    @extend .imagen-table;
+    }
+    table th{
+    @extend .titulos-de-tabla;
+    }
+    table td{
+        @extend .textos-de-tabla;
+    }
+}
+
+.section-productos{ 
+    table{
+        width: 100%;
+        table-layout: fixed;
+        margin-top: 10px;
+    }
+    table img{
+    @extend .imagen-table;
+    }
+    table th{
+    @extend .titulos-de-tabla;
+    }
+    table td{
+        @extend .textos-de-tabla;
+    }
+}
+
+.section-marcas{
+        table{
+            width: 100%;
+            table-layout: fixed;
+        }
+        table img{
+        @extend .imagen-de-tabla;
+        }
+        table th{
+        @extend .titulos-de-tabla;
+        }
+        table tr td{
+        @extend .textos-de-tabla
+        }
+}
+
+.que-es-bs{
+    background-color: #EA5C24;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    h2{
+    @extend h2;
+    }
+    table th{
+    @extend .titulos-de-tabla;
+    }
+    table td{
+    @extend .textos-de-tabla;
+    }
+}
